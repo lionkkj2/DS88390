@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.paidetodos{
+    margin: 50px;
+}
+
+.seila{
+    height: 50px;
+    background-color: #fdba64;
+}
+
+.seila2{
+    height: 450px;
+    background-color: #fed7aa;
+}
+
+.seila3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seila3 div{
+    height: 200px;
+    width: 200px;
+    background-color: #06b6d4;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.seila4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.seila4 div{
+    height: 200px;
+    width: 200px;
+    background-color: #06b6d4;
+    margin: 15px;
+}
