@@ -1,0 +1,82 @@
+body {
+    /* Define a familia de fontes como Arial ou, se não disponivel, sans-serif */
+    font-family: Arial, sans-serif;
+
+    /* define a cor de fundo do corpo da pagina */
+    background-color: #f0f0f0;
+
+    /* Adiciona um preenchimento em torno do conteudo do corpo */
+    padding: 20px;
+}
+
+.container {
+    /* define uma largura maxima para o container */
+    max-width: 800px;
+
+    /* Centraliza o container horizontalmente */
+    margin: 0 auto;
+
+    /* define a cor de fundo do container */
+    background-color: #fff;
+
+    /* Adiocina preenchimento interno ao container */
+    padding: 20px;
+
+    /* Arredonda os cantos do container */
+    border-radius: 8px;
+
+    /* Adiciona uma sombra leve ao redor do container */
+    padding: 20px;
+
+    /* Arredonda os cantos do container */
+    border-radius: 8px;
+
+    /* Adiciona uma sombrqa leve aop redor do container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*  */
+h1, h2 { text-align:center ;
+    /*  */
+    color: #333;
+}
+form input, form button {
+    margin: 5px;
+
+    padding: 8px;
+
+    font-size: 16px;
+}
+
+form button {
+
+    background-color: #4caf50;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+}
+
+ul {
+
+    /* Reove os marcadores de lista padrão */
+    list-style-type: none;
+
+    /* Remove o preenchimento padrão da lista */
+    padding: 0;
+}
+
+li{
+    padding: 10;
+
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+
+    border-bottom: none;
+}
+
+
