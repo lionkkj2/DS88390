@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Cadastro</h2>
+        <form id="registrenForm" action="insert.php" method="POST">
+            <input type="text" name="name" placeholder="nome">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Senha">
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p id="message" style="color: red;"></p>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
